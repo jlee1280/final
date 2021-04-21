@@ -3,9 +3,9 @@ body {
     color:#B8B8FF;
 }
 
-#Album-1{
+/*#Album-1{
     background-image: url("/Images/Album\ 1.png");
-}
+}*/
 
 h1, h2, h3, footer{ 
     display: flex;
