@@ -58,4 +58,12 @@ footer {
         grid-column:2;
         grid-row :1;
     }
+    .album3{
+        grid-column:1;
+        grid-row :3;
+    }
+    .album4{
+        grid-column:2;
+        grid-row :3;
+    }
 }
