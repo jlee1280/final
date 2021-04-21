@@ -3,10 +3,59 @@ body {
     color:#B8B8FF;
 }
 
-h1 {
-    font-family: 'Indie Flower', cursive;
+#Album-1{
+    background-image: url("/Images/Album\ 1.png");
 }
 
-#album1{
-    background-image : url("Album 1.png")
+h1, h2, h3, footer{ 
+    display: flex;
+    justify-content: center;
+}
+.images{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    background-color: purple;
+}
+.cart {
+background-color: blueviolet;
+}
+
+div
+{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+footer {
+    background-color: purple;
+}
+
+@media screen and (min-width:640px){
+    ul {
+        display:flex;
+        justify-content:space-evenly;
+    }
+    .images{
+        display: grid;
+        margin: 10px;
+        padding: 20px;
+    }
+    .album1{
+        grid-column: 1;
+        grid-row :1;
+    }
+    .album2{
+        grid-column:2;
+        grid-row :1;
+    }
 }
